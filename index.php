@@ -15,7 +15,7 @@
         <ul>
             <?php
                 
-                $db = new mysqli('localhost', 'u1624528_catalog', 'Club1920', 'u1624528_catalog');
+                $db = new mysqli('localhost', 'u1624528_catalog', '****', 'u1624528_catalog');
                 
                 if ($db->connect_error) {
                     die("Connection failed: " . $db->connect_error);
