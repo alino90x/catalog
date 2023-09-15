@@ -1,0 +1,45 @@
+ body {
+            font-family: Arial, sans-serif;
+        }
+
+        #category-menu {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .category-item {
+            margin: 5px 0;
+        }
+
+        .category-item button {
+            background-color: #ff0000;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .category-item button:hover {
+            background-color: #cc0000;
+        }
+
+        .category-item input[type="text"],
+        .category-item select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .category-item button[type="submit"] {
+            background-color: #008000;
+        }
+
+        .category-item button[type="submit"]:hover {
+            background-color: #006600;
+        }
+
+        /* Style to create a hierarchical menu */
+        .category-menu ul {
+            padding-left: 20px;
+        }
